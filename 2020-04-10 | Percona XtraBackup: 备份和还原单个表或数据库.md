@@ -1,6 +1,6 @@
 # Percona XtraBackup: 备份和还原单个表或数据库
 
-- 原文连接：https://www.percona.com/blog/2020/04/10/percona-xtrabackup-backup-and-restore-of-a-single-table-or-database/
+- 原文连接：[percona-xtrabackup-backup-and-restore-of-a-single-table-or-database](https://www.percona.com/blog/2020/04/10/percona-xtrabackup-backup-and-restore-of-a-single-table-or-database/)
 
 - 备份和恢复一个完整的数据库是一个常见工作。但是，如果您只需要还原由错误的SQL而被错误修改的一个表，这时该怎么办？Percona XtaBackup可以帮助您。
 - 为了测试，我们将使用一个由sysbench创建的测试数据库。测试使用8.0版本的Percona XtaBackup和Percona版MySQL。

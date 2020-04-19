@@ -36,9 +36,9 @@
 - 幸运的是，MySQL5.7和它的innodb buffer pool在线更改大小功能可以让这一原则更容易遵循。看到大量的空闲内存（或者使用文件系统缓存率）时，动态调大buffer pool。看到有swap，只需要调低它并不需要重启。在实践中，我怀疑使用该功能时可能会出现一些与性能相关的问题，但这至少是朝着正确方向迈出的一大步。
 ## 更多内容
 ### 博客
-- [MySQL server memory usage troubleshooting tips](https://www.percona.com/blog/2014/01/24/mysql-server-memory-usage-2/)
-- [MySQL 5.7 performance tuning immediately after installation](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/)
-- [Ten MySQL performance tuning settings after installation](https://www.percona.com/blog/2014/01/28/10-mysql-performance-tuning-settings-after-installation/)
+- [MySQL server memory usage troubleshooting tips](https://www.percona.com/blog/2014/01/24/mysql-server-memory-usage-2/)([中文翻译](https://github.com/lemontree8801/PerconaBlog/blob/master/2014-01/2014-01-24%20%7C%20MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%8A%80%E5%B7%A7.md))
+- [MySQL 5.7 performance tuning immediately after installation](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/)([中文翻译](https://github.com/lemontree8801/PerconaBlog/blob/master/2016-10/2016-10-12%20%7C%20%E5%AE%89%E8%A3%85%E5%90%8EMySQL5.7%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md))
+- [Ten MySQL performance tuning settings after installation](https://www.percona.com/blog/2014/01/28/10-mysql-performance-tuning-settings-after-installation/)([中文翻译](https://github.com/lemontree8801/PerconaBlog/blob/master/2014-01/2014-01-28%20%7C%20MySQL%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E8%AE%BE%E7%BD%AE.md))
 ### 免费电子书
 - Practical MySQL Performance Tuning: section 1 – understanding query parameter tuning and MySQL optimization
 - Practical MySQL Performance Tuning: section 2 – troubleshooting performance issues and optimizing MySQL

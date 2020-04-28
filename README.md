@@ -2,6 +2,7 @@
 Percona Blog MySQL、MongoDB相关blog翻译
 
 ## 2020-04
+- [2020-04-28 | 还原MongoDB 分片集群到另一个环境.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-04/2020-04-28%20%7C%20%E8%BF%98%E5%8E%9FMongoDB%20%E5%88%86%E7%89%87%E9%9B%86%E7%BE%A4%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%8E%AF%E5%A2%83.md)
 - [2020-04-24 | [警告] InnoDB ：很难在Buffer Pool中找到空闲块.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-04/2020-04-24%20%7C%20%20%5B%E8%AD%A6%E5%91%8A%5D%20InnoDB%20%EF%BC%9A%E5%BE%88%E9%9A%BE%E5%9C%A8Buffer%20Pool%E4%B8%AD%E6%89%BE%E5%88%B0%E7%A9%BA%E9%97%B2%E5%9D%97.md)
 - [2020-04-23 | MySQL 5.7中ALTER TABLE意外的慢.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-04/2020-04-23%20%7C%20MySQL%205.7%E4%B8%ADALTER%20TABLE%E6%84%8F%E5%A4%96%E7%9A%84%E6%85%A2.md)
 - [2020-04-23 | 定位MySQL高CPU故障的简单方法.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-04/2020-04-23%20%7C%20%E5%AE%9A%E4%BD%8DMySQL%E9%AB%98CPU%E6%95%85%E9%9A%9C%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95.md)

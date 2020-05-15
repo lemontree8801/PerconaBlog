@@ -1,7 +1,28 @@
 - [原文链接](https://www.percona.com/blog/2020/05/14/tuning-mysql-innodb-flushing-for-a-write-intensive-workload/)
 
 
-
+   * [对写密集型负载优化MySQL/InnoDB刷盘](#对写密集型负载优化mysqlinnodb刷盘)
+      * [MySQL8.0.19之前的社区版](#mysql8019之前的社区版)
+         * [innodb_io_capacity](#innodb_io_capacity)
+         * [innodb_io_capacity_max](#innodb_io_capacity_max)
+         * [innodb_max_dirty_pages_pct](#innodb_max_dirty_pages_pct)
+         * [innodb_max_dirty_pages_pct_lwm](#innodb_max_dirty_pages_pct_lwm)
+         * [innodb_page_cleaners](#innodb_page_cleaners)
+         * [innodb_purge_threads](#innodb_purge_threads)
+         * [innodb_read_io_threads](#innodb_read_io_threads)
+         * [innodb_write_io_threads](#innodb_write_io_threads)
+         * [innodb_lru_scan_depth](#innodb_lru_scan_depth)
+         * [innodb_flush_sync](#innodb_flush_sync)
+         * [innodb_log_file_size &amp; innodb_log_files_in_group](#innodb_log_file_size--innodb_log_files_in_group)
+         * [innodb_adaptive_flushing_lwm](#innodb_adaptive_flushing_lwm)
+         * [innodb_flushing_avg_loops](#innodb_flushing_avg_loops)
+      * [8.0.19版本后的MySQL社区版](#8019版本后的mysql社区版)
+         * [innodb_io_capacity](#innodb_io_capacity-1)
+         * [innodb_idle_flush_pct](#innodb_idle_flush_pct)
+      * [Percona版的MySQL5.7.x和8.0.x](#percona版的mysql57x和80x)
+         * [innodb_cleaner_lsn_age_factor](#innodb_cleaner_lsn_age_factor)
+         * [innodb_empty_free_list_algorithm](#innodb_empty_free_list_algorithm)
+      * [总结](#总结)
 # 对写密集型负载优化MySQL/InnoDB刷盘
 这是详解InnoDB落盘内部原理系列的第三篇，我们将重点介绍调优。（该系列的其他文章为[InnoDB Flushing in Action for Percona Server for MySQL](https://www.percona.com/blog/2020/01/22/innodb-flushing-in-action-for-percona-server-for-mysql/)）与[Give Love to Your SSDs – Reduce innodb_io_capacity_max!](https://www.percona.com/blog/2019/12/18/give-love-to-your-ssds-reduce-innodb_io_capacity_max/)
 

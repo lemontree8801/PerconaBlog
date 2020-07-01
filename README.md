@@ -1,12 +1,23 @@
 # PerconaBlog
 Percona Blog MySQL、MongoDB相关blog翻译
+## 2020-06
+- [2020-06-03 | 使用验证插件提升MySQL密码安全性.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-03%20%7C%20%E4%BD%BF%E7%94%A8%E9%AA%8C%E8%AF%81%E6%8F%92%E4%BB%B6%E6%8F%90%E5%8D%87MySQL%E5%AF%86%E7%A0%81%E5%AE%89%E5%85%A8%E6%80%A7.md)
+- [2020-06-11 | 使用GO在客户端对MySQL进行转义.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-11%20%7C%20%E4%BD%BF%E7%94%A8GO%E5%9C%A8%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%AF%B9MySQL%E8%BF%9B%E8%A1%8C%E8%BD%AC%E4%B9%89.md)
+- [2020-06-11 | 处理MongoDB的Jumbo Chunk.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-11%20%7C%20%E5%A4%84%E7%90%86MongoDB%E7%9A%84Jumbo%20Chunk.md)
+- [2020-06-15 | 用Python实现MongoDB TPCC 基准压测.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-15%20%7C%20%E7%94%A8Python%E5%AE%9E%E7%8E%B0MongoDB%20TPCC%20%E5%9F%BA%E5%87%86%E5%8E%8B%E6%B5%8B.md)
+- [2020-06-17 | ​MySQL性能分析RED方法.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-17%20%7C%20%E2%80%8BMySQL%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90RED%E6%96%B9%E6%B3%95.md)
+- [2020-06-24 | 当心批量插入失败或者回滚时带来的MySQL表碎片.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-24%20%7C%20%E5%BD%93%E5%BF%83%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E5%A4%B1%E8%B4%A5%E6%88%96%E8%80%85%E5%9B%9E%E6%BB%9A%E6%97%B6%E5%B8%A6%E6%9D%A5%E7%9A%84MySQL%E8%A1%A8%E7%A2%8E%E7%89%87.md)
+- [2020-06-25 | MongoDB 检查点问题.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-25%20%7C%20MongoDB%20%E6%A3%80%E6%9F%A5%E7%82%B9%E9%97%AE%E9%A2%98.md)
+- [2020-06-27 | MySQL101：如何找到和优化慢查询.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-27%20%7C%20MySQL101%EF%BC%9A%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0%E5%92%8C%E4%BC%98%E5%8C%96%E6%85%A2%E6%9F%A5%E8%AF%A2.md)
+- [2020-06-30 | 使用strace分析MySQL.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-06/2020-06-30%20%7C%20%20%E4%BD%BF%E7%94%A8strace%E5%88%86%E6%9E%90MySQL.md)
+
+
 ## 2020-05
 - [2020-05-05 | 优化MongoDB 批量负载.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-05/2020-05-05%20%7C%20%E4%BC%98%E5%8C%96MongoDB%20%E6%89%B9%E9%87%8F%E8%B4%9F%E8%BD%BD.md)
 - [2020-05-05 | 用几行代码设置InnoDB Cluster.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-05/2020-05-05%20%7C%20%E7%94%A8%E5%87%A0%E8%A1%8C%E4%BB%A3%E7%A0%81%E8%AE%BE%E7%BD%AEInnoDB%20Cluster.md)
 - [2020-05-07 | MySQL安全关闭前做的准备.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-05/2020-05-07%20%7C%20MySQL%E5%AE%89%E5%85%A8%E5%85%B3%E9%97%AD%E5%89%8D%E5%81%9A%E7%9A%84%E5%87%86%E5%A4%87.md)
 - [2020-05-14 | 对写密集型负载优化MySQLInnoDB刷盘.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-05/2020-05-14%20%7C%20%E5%AF%B9%E5%86%99%E5%AF%86%E9%9B%86%E5%9E%8B%E8%B4%9F%E8%BD%BD%E4%BC%98%E5%8C%96MySQLInnoDB%E5%88%B7%E7%9B%98.md)
 - [2020-05-27 ｜ MySQL备份最佳实践.md](https://github.com/lemontree8801/PerconaBlog/blob/master/2020-05/2020-05-27%20%EF%BD%9C%20MySQL%E5%A4%87%E4%BB%BD%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
-
 
 
 ## 2020-04

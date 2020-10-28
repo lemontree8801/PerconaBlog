@@ -1,3 +1,5 @@
+- [原文链接](https://www.percona.com/blog/2020/10/08/dangerous-edge-case-warning-for-percona-toolkit-and-pt-online-schema-change/)
+
 # pt-online-schema-change bug一例（PT版本为3.0.10及以下）
 
 最近，我在处理一个由我们的支持客户提出的意外问题，在做表结构变更之后，数据变得不一致。

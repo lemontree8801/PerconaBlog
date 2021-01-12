@@ -22,7 +22,7 @@ mysql> select member_host,member_state,member_role,member_version from performan
 3 rows in set (0.03 sec)
 ```
 
-我计划对当前主节点 **"172.28.128.14"** 做系统补丁工作。当我对当前主节点做降级的同时，我需要将 **"172.28.128.15"** 提升为主节点。我们看一下如何通过以下两种方法实现。
+我计划对当前主节点 "**172.28.128.14**" 做系统补丁工作。当我对当前主节点做降级的同时，我需要将 "**172.28.128.15**" 提升为主节点。我们看一下如何通过以下两种方法实现。
 
 - 使用服务器权重(`group_replication_member_weight`)
 - 使用函数"`group_replication_set_as_primary`"
@@ -48,9 +48,9 @@ mysql> select member_host,member_state,member_role,member_version from performan
 @@group_replication_member_weight: 50
 ```
 
-我将增加**"172.28.128.15"**的权重，这样在**"172.28.128.14"**降级时，它将被选举为主节点。
+我将增加 "**172.28.128.15**" 的权重，这样在 "**172.28.128.14**" 降级时，它将被选举为主节点。
 
-在**"172.28.128.15"**，
+在 "**172.28.128.15**" ，
 
 ```bash
 mysql> set global group_replication_member_weight = 70;

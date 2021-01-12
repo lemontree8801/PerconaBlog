@@ -67,9 +67,9 @@ mysql> select @@group_replication_member_weight;
 
 注意：设置完权重后，您不需要执行`STOP/START GROUP_REPLICATION`。
 
-**"172.28.128.15"**的权重增加到70。现在我将对当前主节点**"172.28.128.14"**降级。
+"**172.28.128.15**" 的权重增加到70。现在我将对当前主节点 "**172.28.128.14**" 降级。
 
-在**"172.28.128.14"**，
+在 "**172.28.128.14**" ，
 
 ```bash
 mysql> stop group_replication;

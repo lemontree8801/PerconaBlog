@@ -86,7 +86,7 @@ mysql> select member_host,member_state,member_role,member_version from performan
 
 节点离开集群。
 
-在**"172.28.128.15"**，
+在 "**172.28.128.15**" ，
 
 ```bash
 mysql> select member_host,member_state,member_role,member_version from performance_schema.replication_group_members;
